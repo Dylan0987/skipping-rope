@@ -12,11 +12,15 @@ p {
   font-family: "Libre Baskerville";
   font-size: 1.2em;
 }
+.leadImage {
+    float: left;
+    width: 40%;
+    padding: 20px 20px 20px 0px;
+}
 @media screen and (max-width: 800px) {
   .leadImage {
-    float: left;
-    width: 30%;
-    padding: 20px 20px 20px 0px;
+    width: 100%;
+    float: none;
   }
 }
 .headerContainer {
