@@ -1,0 +1,45 @@
+body {
+  background-color: #1A1A1D;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Roboto Slab";
+  color: #EDF5E1;
+}
+p {
+  color: #EDF5E1;
+  font-family: "Libre Baskerville";
+  font-size: 1.2em;
+}
+.leadImage {
+  float: left;
+  width: 30%;
+  padding: 20px 20px 20px 0px;
+}
+.headerContainer {
+  padding: 4px;
+  background-color: #950740
+}
+.centerContainer {
+  width: 50%;
+  left: 25%;
+  position: relative;
+  text-align: center;
+}
+.bodyContainer {
+  padding: 10px;
+  width: 80%;
+  left: 10%;
+  position: relative;
+}
+.introPara {
+  line-height: 200%;
+}
+button {
+  font-family: "Libre Baskerville";
+  font-size: 1.2em;
+}
+.footer {
+  height: 100px;
+}
