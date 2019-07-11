@@ -43,8 +43,21 @@ p {
   line-height: 200%;
 }
 button {
+  background-color: #950740;
+  padding: 20px;
+  border: none;
   font-family: "Libre Baskerville";
-  font-size: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 2px 2px 1px black;
+  transition: background-color 300ms
+}
+button:hover {
+  background-color: #C3073F;
+}
+button:active {
+  background-color: #C3073F;
 }
 .footer {
   height: 100px;
